@@ -21,4 +21,5 @@ def save_logs(log):
 
 if __name__ == '__main__':
     port = input("Enter the port name: ")
+    save_logs(f"Start logging at port: {port}")
     read_from_port(port)
